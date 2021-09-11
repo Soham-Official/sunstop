@@ -9,20 +9,20 @@ Sunstop is a completely working ecommerce store of selling sunglasses.The websit
 ### `Tech Stacks`
 
 ### Frontend
-ReactJs
-Bootsrap
+ - ReactJs
+ - Bootsrap
 
 ### Backend
-Express
-Node
-Flask
+- Express
+- Node
+- Flask
 
 ### Database
-MongoDB
+- MongoDB
 
 ### Other Tools
-Firebase
-OpenCv
+- Firebase
+- OpenCv
 
 
 # Project Created by:
