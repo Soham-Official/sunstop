@@ -1,0 +1,29 @@
+.products {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 255, 255, 0.08);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-weight: lighter;
+}
+.productsHeader {
+  font-family: "Recursive", sans-serif;
+  margin-top: 10vh;
+  color: #000;
+}
+@media only screen and (max-width: 500px) {
+  .productHeading {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .galleryProducts {
+    height: 390px !important;
+    width: 320px !important;
+    margin-bottom: 40px;
+  }
+}

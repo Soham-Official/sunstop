@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+.navbar {
+  z-index: 99;
+}
+.navbar .nav-link {
+  color: white;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+.logo1 {
+  color: #e07c24;
+}
+.logo2 {
+  color: #e21717;
+}

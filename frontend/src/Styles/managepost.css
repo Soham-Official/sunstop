@@ -1,0 +1,12 @@
+.galleryManage {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: transform 0.2s;
+  height: 380px;
+  width: 300px;
+}
+@media only screen and (max-width: 500px) {
+  .gallery {
+    height: 380px !important;
+    width: 270px !important;
+  }
+}

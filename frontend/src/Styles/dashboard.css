@@ -1,0 +1,72 @@
+.dashboard {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 255, 255, 0.08);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.dashboardHeader {
+  display: flex;
+  justify-content: space-between;
+  color: #207398;
+}
+
+.dashboardHeader h4 {
+  font-family: "Recursive", sans-serif;
+  font-weight: bold;
+  color: #e07c24;
+}
+@media only screen and (max-width: 500px) {
+  .dashboardHeader {
+    flex-direction: column !important;
+  }
+}
+h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* custom bg */
+.main-color-bg {
+  background-color: #e07c24 !important;
+  border-color: #c0392b !important;
+  color: #ffffff !important;
+}
+
+/* header */
+#header {
+  background: #333333;
+  color: #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#header .create {
+  padding-top: 30px;
+}
+
+#dash-head {
+  padding: 5px;
+}
+/*breadcrumb*/
+.breadcrumb {
+  background-color: #cccccc;
+  color: #333333;
+}
+
+.breadcrumb a {
+  color: #333333;
+}
+
+.progress-bar {
+  background: #333333;
+  color: #ffffff;
+}
+
+.dash-box {
+  text-decoration: center;
+}
